@@ -1,0 +1,35 @@
+.main-container {
+    height: 480px;
+    width: 320px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+.qr-container {
+    height: 288px;
+    padding: 15px 0 20px; 
+
+    img {
+        object-fit: contain;
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 15px;
+    }
+
+}
+
+.description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1F314F;
+    padding: 0 40px 20px;
+}
+
+.directions {
+    font-size: 14px;
+    color:  #7D889E;
+    padding: 0 40px;
+}
+
+
+
