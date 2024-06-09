@@ -7,11 +7,13 @@
 
 .qr-container {
     height: 288px;
-    padding: 15px 0 20px; 
+    padding: 15px 0 20px;
 
     img {
-        object-fit: contain;
-        max-width: 100%;
+        /*
+         Only max-height is needed for an image to not overflow
+         its parent element (if that parent element has a set height also)
+        */
         max-height: 100%;
         border-radius: 15px;
     }
@@ -27,9 +29,6 @@
 
 .directions {
     font-size: 14px;
-    color:  #7D889E;
+    color: #7D889E;
     padding: 0 40px;
 }
-
-
-
