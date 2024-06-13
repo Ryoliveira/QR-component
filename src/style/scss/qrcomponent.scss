@@ -1,5 +1,7 @@
+$color-link: #6161fc;
+
 .main-container {
-  max-width: 21rem;
+  max-width: 22rem;
   background-color: var(--color-white);
   border-radius: var(--radius);
   margin: 2rem auto;
@@ -20,11 +22,10 @@
 }
 
 .directions {
-  font-size: 1rem;
   color: var(--color-light);
-  margin: var(--spacing);
+  margin: var(--spacing) 1.5rem 2rem;
   text-align: center;
-  line-height: 1rem;
+  line-height: 1.2rem;
 }
 
 footer {
@@ -32,11 +33,15 @@ footer {
   margin: var(--spacing) 0;
 
   span {
-    display: inline-block;
+    display: inline-block
   }
 }
 
 a {
   text-decoration: none;
-  color: #6161fc;
+  color: $color-link;
+
+  &:hover {
+    color: darken($color-link, 10%);
+  }
 }
