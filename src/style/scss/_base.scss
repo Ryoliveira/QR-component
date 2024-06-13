@@ -4,8 +4,12 @@ body {
     background-color: var(--color-faded-blue);
     min-height: 100vh;
     min-width: 320px;
-    font: var(--font-family);
+    font-family: var(--font-family);
     font-weight: 400;
+}
+
+h2 {
+    font-weight: 700;
 }
 
 #app {

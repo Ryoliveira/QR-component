@@ -18,10 +18,12 @@ const githubLink: string = "https://github.com/Ryoliveira";
     </section>
   </main>
 
-  <footer>Frontend Mentor challenge
-     <a :href="frontendMentorLink" aria-label="frontend Mentor Solution" target="_blank">QR Component</a>. 
-     Coded by <a :href="githubLink" aria-label="github" target="_blank">Ryan Oliveira</a>
-    </footer>
+  <footer>
+    <span>Frontend Mentor challenge
+      <a :href="frontendMentorLink" aria-label="frontend Mentor Solution" target="_blank">QR Component</a>.
+    </span>
+    <span>&nbsp;Coded by <a :href="githubLink" aria-label="github" target="_blank">Ryan Oliveira</a></span>
+  </footer>
 </template>
 
 <style src="../style/scss/qrcomponent.scss" scoped />
