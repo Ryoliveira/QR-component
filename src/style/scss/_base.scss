@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    place-content: center;
+    background-color: var(--color-faded-blue);
+    min-height: 100vh;
+    min-width: 320px;
+    font: var(--font-family);
+    font-weight: 400;
+}
+
+#app {
+    align-self: center;
+    max-width: 1280;
+}
