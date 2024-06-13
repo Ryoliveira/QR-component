@@ -35,16 +35,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-```scss
-  img {
-        /*
-         Only max-height is needed for an image to not overflow
-         its parent element (if that parent element has a set height also)
-        */
-        max-height: 100%;
-        border-radius: 15px;
-    }
-```
+Css Resets are a good way to set a base for all css so that its consitant between browsers.
+Use Margins to create space between elements.
+Avoid useing px when possible. rem is the way to go.
 
 ### Useful resources
 
