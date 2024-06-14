@@ -5,7 +5,3 @@ import QRComponent from './components/QRComponent.vue';
 <template>
   <QRComponent />
 </template>
-
-<style scoped>
-
-</style>
